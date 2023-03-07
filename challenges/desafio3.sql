@@ -7,3 +7,4 @@ SELECT
   JOIN musics mus ON hst.id_music = mus.id_music
   GROUP BY usr.name_user
   ORDER BY usr.name_user;
+  

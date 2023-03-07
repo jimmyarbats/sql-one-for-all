@@ -5,3 +5,4 @@ SELECT usr.name_user as pessoa_usuaria,
   JOIN history hst ON hst.id_user = usr.id_user
   GROUP BY pessoa_usuaria
   ORDER BY pessoa_usuaria;
+  
